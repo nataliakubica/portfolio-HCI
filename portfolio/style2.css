@@ -1,0 +1,16 @@
+h2{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.box2 > a{
+    font-size: 18px;
+    margin-top: 50px;
+    margin-left: 50px;
+    color: white;
+}
+
+.box2{
+    background-color: #D6A73F;
+    width: 300px;    
+}

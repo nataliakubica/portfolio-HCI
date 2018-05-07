@@ -1,0 +1,73 @@
+*{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+        "header header header"
+        "menu menu menu"
+        "box1 box1 box2";
+        grid-row-gap: 0px;
+    color: #D6A73F;
+    font-family: abel; 
+}
+
+header{
+    grid-area: header;
+    text-align: center;
+}
+
+header > h1{
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.box1{
+    grid-area: box1;
+}
+.box1 > img{
+    width: 600px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.box2{
+    grid-area: box2;
+}
+
+.box2 > h2{
+    margin-top: 50px;
+}
+/* opmaak menu */
+
+div.menu{
+    grid-area: menu;
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+}
+
+li{
+    display: inline;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    width: 60px;
+    height: 60px;
+    background-color: #D6A73F;
+    padding: 10px;
+}
+
+li > a{
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
+}
+
+li > a:hover{
+    text-decoration: underline;
+}
